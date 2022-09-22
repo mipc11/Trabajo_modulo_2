@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Contactot</title>
+    <link rel="shortcut icon" href="Imágenes/logomp.ico" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/estilosmp.css">
+</head>
+<body>
+  <header>
+    <div style="float: left;"><img
+      src="Imágenes/logomp.png"
+      alt="logo"
+      height="90"
+                 
+      /><br /></div>
+    <div>
+      <h1 style="float:left;">
+        <b> MP REPOSTERÍA</b>
+      </h1><br><br><br>
+      <h2 class="eslogan" style="float:left"><i>"Antojitos llenos de amor"</i></h2>
+    </div>
+
+    <nav style="float: right">
+      <b><a href="paginainicio.html">Inicio </a></b>
+      <b><a href="paginainicio.html#iseccion2">Productos </a></b>
+      <b><a href="paginainicio.html#ipublicidad">Publicidad </a></b>
+      <b><a href="formulariocontacto.html">Contacto </a></b>
+    </nav>
+        
+  </header><br>
+  <main>
+    <form id="iformulariocontacto" action="paginainicio.html" class="formulario">
+        <div>
+                    <legend><h2><b>CUÉNTANOS ACERCA DE TI</b></h2></legend>
+                    
+                    <br/><br/>
+                    <label for="inombres">Nombres:</label>
+                    <input type="text" required>
+                    <label for="iapellidos">Apellidos:</label>
+                    <input type="text" required>
+                    <br><br>
+                    <label for="igenero">Género:</label>
+                    <div class="radio">
+                      <input type="radio">Hombre
+                      <input type="radio">Mujer</div>
+                      <br>
+                      <label for="ilista">Municipio:</label>
+                        <select name="municipio" id="imunicipio">
+                          <option value="Cajicá">Cajicá</option>
+                          <option value="Chía">Chía</option>
+                          <option value="Sopó">Sopó</option>
+                          <option value="Zipaquirá">Zipaquirá</option>
+                        </select>                    
+                      <br><br>  
+                   <label for="ifechanacimiento">Fecha de nacimiento:</label>
+                    <input type="date">
+                    <label for="numerotelefono">Número Telefónico:</label>
+                    <input type="number">
+                    <br/><br/>
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" required>
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="password" required>
+                    <br/><br/>
+                    <label for="iintereses" id="iintereses">Selecciona tus intereses:</label><br><br>
+                      <div class="intereses">
+                      <input type="checkbox">Postres
+                      <input type="checkbox">Mesas dulces
+                      <input type="checkbox">Galletas
+                      <br>
+                      <input type="checkbox">Tortas
+                      <input type="checkbox">Panadería artesanal
+                      <input type="checkbox">Otros
+                    </div>              
+                    <br><br>
+                    <label for="imensaje">Mensaje:</label><br><br>
+                    <textarea name="textolargo" id="" cols="80" rows="10">Deja tus opiniones, preguntas y/o sugerencias
+                    </textarea>
+                    <br><br>
+                    <label for="iterminos"> Acepto Términos y Condiciones</label> 
+                    <input type="checkbox" required> 
+                    <input type="submit" class="boton">       
+                    <br><br>
+            </div>
+    </main>
+    <footer>
+      <div id="ifooter">
+        <div id="ilogo">
+          <img
+            src="Imágenes/logomp.png"
+            alt="logo"
+            height="80"
+            style="float: left"
+          />
+        </div>
+        <div id="imarca">
+          <dd>
+            <h5><i>&copy; Martha Pineda 2.022 - Cajicá/Cundinamarca -  Cel. 313 885 1536</i></h5>
+          </dd>
+        </div>
+        <div id="ienlacesf">
+          <b><a href="paginainicio.html">Inicio </a></b>
+          <b><a href="paginainicio.html#iseccion2">Productos </a></b>
+          <b><a href="paginainicio.html#ipublicidad">Publicidad </a></b>
+          <b><a href="formulariocontacto.html">Contacto </a></b>
+        </div>
+      </div>
+    </footer>
+</body>
+
+
+</html>
